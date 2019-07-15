@@ -10,6 +10,7 @@
 	"description": "Create flex powered lists in react.",
 	"version": "0.0.2",
 	"main": "./dist/list.js",
+    "types": "./dist/list.d.ts",
 	"scripts": {
 		"docs": "docz dev --typescript docs/",
 		"format": "prettier src/**/*.* --write",
