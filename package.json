@@ -1,0 +1,54 @@
+{
+	"name": "@mariosant/react-flex-list",
+	"author": {
+		"name": "Marios Antonoudiou",
+		"email": "mariosant@sent.com",
+		"website": "https://mariosant.carrd.co"
+	},
+	"website": "https://github.com/mariosant/react-flex-list",
+	"repository": "github:mariosant/react-flex-list",
+	"description": "Create flex powered lists in react.",
+	"version": "0.0.0",
+	"main": "./dist/list.js",
+	"scripts": {
+		"docs": "docz dev --typescript docs/",
+		"format": "prettier src/**/*.* --write",
+		"lint": "tsc --noemit",
+		"release": "standard-version",
+		"test": "jest"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"rebass": "^3.1.1"
+	},
+	"devDependencies": {
+		"@testing-library/react": "^8.0.1",
+		"@types/jest": "^24.0.13",
+		"@types/react": "^16.8.19",
+		"@types/react-dom": "^16.8.4",
+		"@types/rebass": "^3.0.4",
+		"docz": "^1.2.0",
+		"docz-theme-default": "^1.2.0",
+		"husky": "^3",
+		"jest": "^24.3.1",
+		"jest-dom": "^3.2.2",
+		"lint-staged": "^9.0.1",
+		"prettier": "^1.16.4",
+		"react": "^16.8.6",
+		"standard-version": "^6.0.1",
+		"styled-components": "^4.3.2",
+		"ts-jest": "^24.0.2",
+		"ts-loader": "^6.0.2",
+		"typescript": "^3.5.1"
+	},
+	"peerDependencies": {
+		"react": "^16.0.0",
+		"styled-components": "^4.0.0"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "yarn lint && yarn lint-staged",
+			"pre-push": "yarn test"
+		}
+	}
+}

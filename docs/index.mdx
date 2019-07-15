@@ -1,0 +1,21 @@
+import List from '../src/list.tsx';
+import {Box} from 'rebass';
+
+Hello!
+======
+
+This is docz!
+
+<List 
+	flexDirection="row"
+	alignItems="space-between"
+	width={1}
+	items={['hi', 'there', 'this', 'is', 'a', 'list']}
+	renderItem={item => (<button key={item}>{item}</button>)}
+/>
+
+<List 
+	flexDirection="column"
+	items={['hi', 'there', 'this', 'is', 'a', 'list']}
+	renderItem={item => <button key={item}>{item}</button>}
+/>
