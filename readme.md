@@ -7,6 +7,10 @@ Create flex powered lists in react.
 [![NPM version](https://img.shields.io/npm/v/@mariosant/react-flex-list.svg)](https://www.npmjs.com/package/@mariosant/react-flex-list)
 [![CircleCI](https://circleci.com/gh/mariosant/react-flex-list/tree/master.svg?style=svg)](https://circleci.com/gh/mariosant/react-flex-list/tree/master)
 
+### Example
+
+[![Edit bold-pond-nw91o](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/bold-pond-nw91o?fontsize=14)
+
 ## Installation
 
 Add `@mariosant/react-flex-list` to your `package.json`.
