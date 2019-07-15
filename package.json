@@ -8,7 +8,7 @@
 	"website": "https://github.com/mariosant/react-flex-list",
 	"repository": "github:mariosant/react-flex-list",
 	"description": "Create flex powered lists in react.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "./dist/list.js",
 	"scripts": {
 		"docs": "docz dev --typescript docs/",
